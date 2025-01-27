@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/conqt-assignment/static/css/main.f855e6bc.css",
+    "main.js": "/conqt-assignment/static/js/main.7f912d81.js",
+    "static/js/488.c18393c4.chunk.js": "/conqt-assignment/static/js/488.c18393c4.chunk.js",
+    "static/media/logo.svg": "/conqt-assignment/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/conqt-assignment/index.html",
+    "main.f855e6bc.css.map": "/conqt-assignment/static/css/main.f855e6bc.css.map",
+    "main.7f912d81.js.map": "/conqt-assignment/static/js/main.7f912d81.js.map",
+    "488.c18393c4.chunk.js.map": "/conqt-assignment/static/js/488.c18393c4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.7f912d81.js"
+  ]
+}
