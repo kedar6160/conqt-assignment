@@ -4,7 +4,7 @@ const A = () => {
 
     return (
         <div>
-            <h1>Component A</h1>
+            <h1>here we are</h1>
         </div>
     );
 }
