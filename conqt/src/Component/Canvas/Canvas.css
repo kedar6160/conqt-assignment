@@ -1,0 +1,52 @@
+.canvas{
+    flex: 1;
+    padding: 10px;
+    border:1px dotted #ddd;
+    min-height: 500px;
+    background-color: #f4f4f4;
+    
+}
+.canvas-widget{
+    padding: 10px;
+    margin: 5px;
+    background-color: #fff; 
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.resize-handle{
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.resize-right{
+    right: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.resize-bottom{
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);    
+}
+input {
+    padding: 5px;
+    width:-webkit-fill-available;
+}
+button{
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+img{
+    height: auto;
+    max-width: 100%;
+}
+.canvas-widget.selected{
+    border: 1px solid #007bff;
+    z-index: 100;
+}

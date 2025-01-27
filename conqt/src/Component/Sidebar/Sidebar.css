@@ -1,0 +1,13 @@
+.sidebar{
+    width: 200px;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+.draggable-widget{
+    padding: 8px;
+    margin: 5px 0;
+    background-color:#ddd;
+    cursor: grab;
+    text-align: center;
+}
