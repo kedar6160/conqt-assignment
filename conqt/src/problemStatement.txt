@@ -1,0 +1,94 @@
+Technical Test for Senior Frontend Developer (ReactJS) for No Code/Low Code Platform
+Task 1: Build a Custom Page Builder with Drag-and-Drop (60 minutes)
+Requirements:
+Create a React application that allows users to build a webpage dynamically.
+The interface should include:
+A sidebar with pre-defined widgets: Text Box, Button, Image, Form.
+A canvas area where users can drag-and-drop widgets to build their page.
+Features:
+Widgets can be resized and repositioned within the canvas.
+Users can configure widget properties (e.g., change text for Text Box, set image URL for Image, etc.) through a right-hand sidebar.
+Allow saving the layout to localStorage and reloading it on app refresh.
+Implement a "Preview Mode" where users can view their created page.
+Assessment Criteria:
+Implementation of drag-and-drop functionality (e.g., using react-dnd or similar libraries).
+State management for widget configurations and layout.
+Efficient handling of dynamic rendering and reactivity.
+
+
+Task 2: Implement a Custom Component Library with Versioning (45 minutes)
+Requirements:
+Create a basic component library within the app:
+Components: Card, Button, Modal.
+Each component should support multiple styles (e.g., primary, secondary, etc.).
+Add versioning to the components:
+A dropdown in the app allows switching between "v1" and "v2" of the components.
+v1 should have basic styles, while v2 introduces advanced features like animations and new design.
+Ensure seamless switching between versions in real-time.
+Assessment Criteria:
+Ability to create reusable and configurable components.
+Dynamic version switching without reloading the page.
+Clean separation of component versions.
+
+
+Task 3: Design a Real-Time Collaboration Feature (45 minutes) - Optional 
+Requirements:
+Implement a real-time collaboration feature:
+Multiple users can edit the same canvas from Task 1 simultaneously.
+Changes by one user should reflect for others in real-time.
+Use WebSockets (mocked server or a library like socket.io) to handle real-time updates.
+Show user cursors on the canvas to indicate where other users are editing.
+Assessment Criteria:
+Proficiency in integrating WebSockets into React.
+Handling concurrent updates and resolving conflicts.
+User experience for collaborative editing.
+
+
+Task 4: Build a Dynamic Plugin Loader (30 minutes) - Optional
+Requirements:
+Allow external plugins (e.g., .js files) to be dynamically loaded into the app.
+Each plugin should register new widgets (e.g., a "Chart" widget) to be available in the sidebar from Task 1.
+Implement sandboxing to isolate plugin code execution.
+Assessment Criteria:
+Ability to dynamically load and execute external JavaScript modules.
+Ensuring security and isolation for third-party code.
+Extensibility of the app for future plugins.
+
+
+Task 5: Performance Optimization and Debugging (30 minutes)
+Scenario: The following code snippet causes severe performance issues:
+ 
+JavaScript
+const WidgetList = ({ widgets }) => {  return (    <div>      {widgets.map((widget) => (        <div key={widget.id}>          <p>{widget.name}</p>          <input            type="text"            value={widget.value}            onChange={(e) => {              widget.value = e.target.value;            }}          />        </div>      ))}    </div>  );}; 
+ 
+Tasks:
+Identify the issues in the code.
+Refactor the code to improve performance without breaking functionality.
+Explain your changes in comments.
+Assessment Criteria:
+Ability to identify and fix performance bottlenecks.
+Proper use of React optimization techniques like memo, useCallback, etc.
+Clear documentation of the reasoning.
+Bonus Task (Optional)
+Task: Implement Custom Validation Rules for a Form
+Requirements:
+Create a dynamic form with fields (Text, Email, Number).
+Allow users to add custom validation rules through a UI (e.g., "Number must be greater than 10").
+Show real-time validation errors as users type.
+Assessment Criteria:
+Implementation of custom validation logic.
+Clean and modular form handling.
+Real-time feedback and reactivity.
+What This Test Assesses:
+Advanced ReactJS concepts: state management, component design, hooks.
+Performance optimization and debugging skills.
+Real-time updates and WebSocket integration.
+Dynamic rendering and plugin architecture.
+UX design and implementation for No Code/Low Code platforms.
+
+Submission
+Create a GitHub repository for your project.
+Commit your code and the Postman screenshot to the repository.
+Include a README.md file with instructions on how to set up and run the application.
+Provide the repository URL for evaluation.
+ 
